@@ -4,4 +4,9 @@
     <string name="on_going_all_out_txt">ON GOING ALL OUT</string>
     <string name="find_team_txt"><![CDATA[Find a team in your city & dominate the league]]></string>
     <string name="get_started_txt">GET STARTED</string>
+    <string name="next_button">NEXT</string>
+    <string name="cd_ed_item">Cd-Ed</string>
+    <string name="mens_item">Mens</string>
+    <string name="womens_item">Womens</string>
+    <string name="desired_league_txt">Desired League.</string>
 </resources>
