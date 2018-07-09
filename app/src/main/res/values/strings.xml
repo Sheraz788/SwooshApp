@@ -9,4 +9,6 @@
     <string name="mens_item">Mens</string>
     <string name="womens_item">Womens</string>
     <string name="desired_league_txt">Desired League.</string>
+    <string name="background_image">background Image</string>
+    <string name="app_logo">App Logo</string>
 </resources>
