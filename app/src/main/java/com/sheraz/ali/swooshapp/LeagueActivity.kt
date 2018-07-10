@@ -3,7 +3,7 @@ package com.sheraz.ali.swooshapp
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class LeagueActivity : AppCompatActivity() {
+class LeagueActivity : BasicActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
