@@ -1,4 +1,4 @@
-package com.sheraz.ali.swooshapp
+package com.sheraz.ali.swooshapp.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
