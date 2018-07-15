@@ -12,6 +12,6 @@ class SkillActivity : AppCompatActivity() {
 
         val league = intent.getStringExtra(EXTRA_LEAGUE)
 
-        
+
     }
 }
