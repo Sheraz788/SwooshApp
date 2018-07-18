@@ -3,9 +3,9 @@ package com.sheraz.ali.swooshapp.Controller
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.sheraz.ali.swooshapp.Model.Player
 import com.sheraz.ali.swooshapp.R
-import com.sheraz.ali.swooshapp.Utilities.EXTRA_LEAGUE
-import com.sheraz.ali.swooshapp.Utilities.USER_SKILL
+import com.sheraz.ali.swooshapp.Utilities.EXTRA_PLAYER
 import kotlinx.android.synthetic.main.activity_finish.*
 
 class FinishActivity : BasicActivity() {
@@ -14,9 +14,8 @@ class FinishActivity : BasicActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_finish)
 
-        val league = intent.getStringExtra(EXTRA_LEAGUE)
-        val skill = intent.getStringExtra(USER_SKILL)
+        var player = intent.getParcelableExtra<Player>(EXTRA_PLAYER)
 
-        searchLeagueText.text = "Looking for $league $skill League Near you ..."
+        searchLeagueText.text = "Looking for ${player.league} ${player.skill} League Near you ..."
     }
 }
