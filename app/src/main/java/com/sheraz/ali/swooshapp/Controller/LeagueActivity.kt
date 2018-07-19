@@ -33,7 +33,7 @@ class LeagueActivity : BasicActivity() {
         }
     }
 
-    fun onMensClicked(view: View){
+    fun onMensClicked(){
 
         womensLeagueBtn.isChecked = false
         coedLeagueBtn.isChecked = false
@@ -41,7 +41,7 @@ class LeagueActivity : BasicActivity() {
         player.league = mensLeagueBtn.text.toString()
 
     }
-    fun onWomensClicked(view: View){
+    fun onWomensClicked(){
 
         mensLeagueBtn.isChecked = false
         coedLeagueBtn.isChecked = false
@@ -49,7 +49,7 @@ class LeagueActivity : BasicActivity() {
         player.league = womensLeagueBtn.text.toString()
 
     }
-    fun onCoedClicked(view: View){
+    fun onCoedClicked(){
 
         mensLeagueBtn.isChecked = false
         womensLeagueBtn.isChecked = false
